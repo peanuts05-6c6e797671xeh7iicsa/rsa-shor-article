@@ -1,0 +1,37 @@
+name: 実行環境の問題
+description: Colab / パッケージ / 実行時エラーの報告
+labels: ["environment"]
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 実行環境
+      options:
+        - Google Colab
+        - ローカル（Linux）
+        - ローカル（macOS）
+        - ローカル（Windows）
+        - その他
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: パッケージバージョン
+      description: "qiskit, qiskit-aer, Python のバージョン"
+      placeholder: "例: qiskit 1.4.2, qiskit-aer 0.17.0, Python 3.11"
+  - type: input
+    id: cell
+    attributes:
+      label: エラーが発生するセル番号
+      placeholder: "例: セル 120"
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: エラーメッセージ
+      description: エラーの全文をコピーしてください
+      render: shell
+    validations:
+      required: true
