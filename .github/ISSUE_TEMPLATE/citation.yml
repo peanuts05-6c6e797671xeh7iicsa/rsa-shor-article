@@ -1,0 +1,19 @@
+name: 出典・参考文献の誤り
+description: 引用番号のずれ、参考文献の誤り、リンク切れの報告
+labels: ["citation"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 該当箇所
+      description: "PDF のページ番号・参考文献番号、または notebook のセル番号"
+      placeholder: "例: PDF p.70 [7a]、notebook セル 163"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 誤りの内容
+      description: 何が誤っているかを説明してください
+    validations:
+      required: true

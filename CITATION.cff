@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "なぜ今RSA暗号は安全か？ 量子コンピュータでどうやって破るのか"
+message: "この教材を参照する場合は、以下の情報を使用してください。"
+type: dataset
+authors:
+  - family-names: "Amari"
+    given-names: "Jorge"
+    alias: "甘利 丈慈"
+date-released: "2026-04-25"
+version: "1.0.0"
+license: "CC-BY-NC-ND-4.0"
+repository-code: "https://github.com/peanuts05-6c6e797671xeh7iicsa/rsa-shor-article"
+keywords:
+  - quantum-computing
+  - shor-algorithm
+  - rsa-cryptography
+  - post-quantum-cryptography
+  - quantum-phase-estimation
+  - qiskit
+  - japanese
+abstract: >-
+  Shorのアルゴリズムによる素因数分解を理論とハンズオンの両面から解説し、
+  RSA暗号の安全性、量子コンピュータによる攻撃の原理、
+  現状の技術的制約までを体系的に理解するための日本語教材。

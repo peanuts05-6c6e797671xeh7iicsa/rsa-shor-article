@@ -1,0 +1,26 @@
+name: 誤植の報告
+description: 誤字・脱字・表記ミスの報告
+labels: ["typo"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 該当箇所
+      description: "PDF のページ番号、または notebook のセル番号"
+      placeholder: "例: PDF p.42、notebook セル 35"
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: 現在の記述
+      description: 誤りのある記述をそのまま記載してください
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: 修正案
+      description: 正しいと思われる記述
+    validations:
+      required: true

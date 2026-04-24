@@ -1,0 +1,24 @@
+name: 技術的な誤りの報告
+description: 数学・量子計算・暗号に関する誤りの報告
+labels: ["technical"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 該当箇所
+      description: "PDF のページ番号・式番号、または notebook のセル番号"
+      placeholder: "例: PDF p.35 式(3.11)、notebook セル 120"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 誤りの内容
+      description: 何が誤りか、なぜ誤りかを説明してください
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: 参考文献（任意）
+      description: 正しい内容を裏付ける文献やリンクがあれば記載してください

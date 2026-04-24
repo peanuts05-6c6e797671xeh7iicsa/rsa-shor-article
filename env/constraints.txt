@@ -1,0 +1,6 @@
+# 動作確認済みのバージョン制約
+# pip install -r requirements.txt -c constraints.txt で使用
+qiskit>=2.3,<2.4
+qiskit-aer>=0.17,<0.18
+japanize-matplotlib>=1.1,<2.0
+pylatexenc>=2.10,<3.0
