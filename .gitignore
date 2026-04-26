@@ -33,3 +33,6 @@ venv/
 *.fls
 
 debug/
+
+# Release artifacts (distributed via GitHub Releases, not tracked in git)
+release-assets/
