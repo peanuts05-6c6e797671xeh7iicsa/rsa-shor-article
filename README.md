@@ -25,7 +25,7 @@
 
 - **PDF（理論編）**: [最新版をダウンロード](../../releases/latest)
 - **ハンズオン（実行編）**: [`notebooks/`](notebooks/)
-- **正本・更新履歴・正誤表**: [peanuts-chicken-little.com/research/rsa-shor](https://peanuts-chicken-little.com/research/rsa-shor)
+- **正本・更新履歴・正誤表**: [peanuts-chicken-little.com/research/rsa-shor](https://peanuts-chicken-little.com/research/rsa-shor?utm_source=github&utm_medium=repo&utm_campaign=rsa-shor-v1)
 
 ## 引用方法
 
