@@ -7,6 +7,13 @@
 
 > 本教材は個人が無償・非営利で公開している技術解説です。営利目的の販売や広告を含みません。
 
+## 🌐 English edition
+
+A full English edition (v1.1.0-en) is available — same content, fully translated and independently reviewed:
+
+- **Theory PDF (76 pages)**: [Download from Release v1.1.0-en](../../releases/tag/v1.1.0-en)
+- **Hands-on notebook (executed, English outputs)**: [`notebooks/rsa-shor-handson-en-latest.ipynb`](notebooks/rsa-shor-handson-en-latest.ipynb) / [Open in Colab](https://colab.research.google.com/github/peanuts05-6c6e797671xeh7iicsa/rsa-shor-article/blob/main/notebooks/rsa-shor-handson-en-latest.ipynb)
+
 ## この教材で分かること
 
 - RSA暗号はどのような仕組みで動いているのか
@@ -27,6 +34,7 @@
 
 - **PDF（理論編）**: [最新版をダウンロード](../../releases/latest)
 - **ハンズオン（実行編）**: [`notebooks/`](notebooks/) または [Google Colabで開く](https://colab.research.google.com/github/peanuts05-6c6e797671xeh7iicsa/rsa-shor-article/blob/main/notebooks/rsa-shor-handson-ja-latest.ipynb)
+- **英語版（English edition）**: [Release v1.1.0-en](../../releases/tag/v1.1.0-en) / [English notebook on Colab](https://colab.research.google.com/github/peanuts05-6c6e797671xeh7iicsa/rsa-shor-article/blob/main/notebooks/rsa-shor-handson-en-latest.ipynb)
 - **正本・更新履歴・正誤表**: [peanuts-chicken-little.com/research/rsa-shor](https://peanuts-chicken-little.com/research/rsa-shor/?utm_source=github&utm_medium=repo&utm_campaign=rsa-shor-v1)
 
 ## 対象読者
